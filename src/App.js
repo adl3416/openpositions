@@ -114,9 +114,9 @@ function App() {
       saveAs(blob, `Open_Pos_List_${dayjs(new Date()).format('DD.MM.YYYY HH:mm:ss')}.xlsx`)
     })
 
-    // const filename = `${dayjs(new Date()).format('DD_MM_YYY_HH_mm_ss')}.xlsx`
-    // download(csvConfig)(csv);
-  }
+   
+   
+  
 
   return (
     <div className="h-screen w-full relative overflow-y-scroll">
