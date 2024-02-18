@@ -72,7 +72,7 @@ function App() {
     ).data
     const csv = generateCsv(csvConfig)(response.ResultSets[0])
 
-    var x: any[] = []
+
 
     // x.push(keys(response.ResultSets[0][0]).join('\t') + '\n');
 
