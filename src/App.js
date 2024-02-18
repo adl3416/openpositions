@@ -12,16 +12,7 @@ import { map, values, keys } from 'lodash'
 import { saveAs } from 'file-saver'
 import * as ExcelJS from 'exceljs'
 
-const formItemLayout = {
-  labelCol: {
-    xs: { span: 24 },
-    sm: { span: 6 },
-  },
-  wrapperCol: {
-    xs: { span: 24 },
-    sm: { span: 14 },
-  },
-}
+
 
 const csvConfig = mkConfig({ useKeysAsHeaders: true, title: 'Open Positions', fieldSeparator: '\t', filename: `${dayjs(new Date()).format('DD_MM_YYYY HH_mm_ss').toString()}` })
 
