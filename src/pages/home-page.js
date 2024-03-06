@@ -1,5 +1,5 @@
 
-import { Button, DatePicker,Input } from 'antd';
+import { Button, DatePicker,Input, Select } from 'antd';
 import React from 'react'
 import { Col, Container, InputGroup, Row, Form} from 'react-bootstrap'
 import Spacer from '../components/spacer';
@@ -27,7 +27,7 @@ const HomePage = () => {
           </Col>
 
           <Col md={2}>
-          <Button> All</Button>
+          <Button   > All</Button>
         </Col>
 
 
@@ -36,14 +36,15 @@ const HomePage = () => {
           </Col>
 
           <Col md={2} >
-            <Input/>
+            <Input placeholder='Search'/>
           </Col>
 
       </Row>
       
     </Container>
+    <Spacer height={35}/>
     <Form>
-      <div></div>
+      <div>Form</div>
     </Form>
   </Container>
 );
