@@ -12,6 +12,7 @@ import { map, values, keys } from 'lodash'
 import { saveAs } from 'file-saver'
 import * as ExcelJS from 'exceljs'
 import HomePage from './pages/home-page'
+import CustomRoutes from './router/custom-routes'
 
 
 
@@ -19,7 +20,7 @@ const App = () => {
   return (
 
     <>  
-      <HomePage/>
+      <CustomRoutes/>
     </>
   )
 }
