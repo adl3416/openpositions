@@ -4,7 +4,7 @@ import React from 'react'
 const PosDetail = () => {
   return (
     <div>
-      <div></div>
+      <div>posdetailpage</div>
     </div>
   )
 }

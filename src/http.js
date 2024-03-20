@@ -5,7 +5,7 @@ import {config} from './constants'
 const $http = axios.create({
   baseURL: config.baseUrl,
   headers: {
-    "Content-Type": 'application/json'
+    "Content-Type": 'application/json' ///
   },
 })
 
