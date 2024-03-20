@@ -3,8 +3,11 @@ import React from 'react'
 
 const PosDetail = () => {
   return (
-    <div>PosDetail</div>
+    <div>
+      <div></div>
+    </div>
   )
 }
 
 export default PosDetail
+

@@ -8,7 +8,16 @@
 
 
 
-.ant-list-item-meta {
-  text-transform: capitalize;
-  text-align: left !important;
+
+.d{
+  display: flex;
+}
+
+
+.e{
+  display: flex;
+}
+
+.open{
+  background-color: aqua;
 }
